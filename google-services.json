@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "538707931355",
+    "project_id": "fir-trade-e0b37",
+    "storage_bucket": "fir-trade-e0b37.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538707931355:android:ed990ff38632e69b12dcfe",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChI6-SIC9cU8RpeA2hyJXy0x5cO_3z6PI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
