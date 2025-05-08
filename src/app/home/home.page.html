@@ -1,20 +1,77 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>TradePeeps</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="ion-padding demo-page">
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <!-- Welcome Banner -->
+  <div class="welcome-card ion-margin-bottom">
+    <h2>Welcome, Trader 👋</h2>
+    <p>Your trading dashboard at a glance.</p>
   </div>
+
+  <!-- Portfolio Summary -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Portfolio Summary</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <h3>$12,540</h3>
+            <p>Total Value</p>
+          </ion-col>
+          <ion-col>
+            <h3>+4.5%</h3>
+            <p>Today’s Gain</p>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Market Watch -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Market Watch</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-label>
+            <h2>BTC/USD</h2>
+            <p>Bitcoin</p>
+          </ion-label>
+          <ion-note color="success">+2.3%</ion-note>
+        </ion-item>
+        <ion-item>
+          <ion-label>
+            <h2>ETH/USD</h2>
+            <p>Ethereum</p>
+          </ion-label>
+          <ion-note color="danger">-1.1%</ion-note>
+        </ion-item>
+        <ion-item>
+          <ion-label>
+            <h2>TSLA</h2>
+            <p>Tesla Stock</p>
+          </ion-label>
+          <ion-note color="success">+5.6%</ion-note>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Quick Actions -->
+  <div class="quick-actions ion-padding">
+    <h4>Quick Actions</h4>
+    <ion-buttons>
+      <ion-button color="success" expand="block">Buy</ion-button>
+      <ion-button color="danger" expand="block">Sell</ion-button>
+    </ion-buttons>
+  </div>
+
 </ion-content>
