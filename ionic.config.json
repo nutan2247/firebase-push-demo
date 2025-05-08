@@ -1,0 +1,7 @@
+{
+  "name": "firebase-push-demo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
