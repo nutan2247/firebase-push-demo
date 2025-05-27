@@ -1,43 +1,43 @@
 {
-  "hash": "dd35448a",
+  "hash": "0b3bfc33",
   "configHash": "48af0bcf",
-  "lockfileHash": "a27d7a5f",
-  "browserHash": "5926c9ec",
+  "lockfileHash": "18ce90f9",
+  "browserHash": "4f5423b9",
   "optimized": {
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "1efc92e2",
+      "needsInterop": false
+    },
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "84ca5a6f",
+      "fileHash": "7350f175",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "cb2888e1",
+      "fileHash": "96559963",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "61214fc1",
-      "needsInterop": false
-    },
-    "@ionic/angular/standalone": {
-      "src": "../../../../../../node_modules/@ionic/angular/fesm2022/ionic-angular-standalone.mjs",
-      "file": "@ionic_angular_standalone.js",
-      "fileHash": "d076643a",
+      "fileHash": "a19d4549",
       "needsInterop": false
     },
     "@ionic/angular": {
       "src": "../../../../../../node_modules/@ionic/angular/fesm2022/ionic-angular.mjs",
       "file": "@ionic_angular.js",
-      "fileHash": "834e7585",
+      "fileHash": "639c48a8",
       "needsInterop": false
     },
-    "@angular/common": {
-      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
-      "file": "@angular_common.js",
-      "fileHash": "dc4eaa03",
+    "@ionic/angular/standalone": {
+      "src": "../../../../../../node_modules/@ionic/angular/fesm2022/ionic-angular-standalone.mjs",
+      "file": "@ionic_angular_standalone.js",
+      "fileHash": "ca1ac07e",
       "needsInterop": false
     }
   },
