@@ -1,0 +1,20 @@
+<ion-content class="ion-padding">
+  <ion-item>
+    <ion-label position="floating">Phone Number</ion-label>
+    <ion-input [(ngModel)]="phoneNumber" type="tel" placeholder="+1 234 567 8900"></ion-input>
+  </ion-item>
+
+  <div *ngIf="confirmationResult">
+    <ion-item>
+      <ion-label position="floating">Enter OTP</ion-label>
+      <ion-input [(ngModel)]="otp" type="number" maxlength="6"></ion-input>
+    </ion-item>
+    <ion-button expand="block" (click)="verifyOTP()">Verify OTP</ion-button>
+  </div>
+
+  <div *ngIf="!confirmationResult">
+    <ion-button expand="block" (click)="sendOTP()">Send OTP</ion-button>
+  </div>
+
+  <div *ngIf="message">{{message}}</div>
+</ion-content>

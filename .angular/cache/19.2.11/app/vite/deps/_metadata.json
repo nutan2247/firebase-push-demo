@@ -1,43 +1,43 @@
 {
-  "hash": "0b3bfc33",
+  "hash": "044a76c4",
   "configHash": "48af0bcf",
-  "lockfileHash": "18ce90f9",
-  "browserHash": "4f5423b9",
+  "lockfileHash": "43862a94",
+  "browserHash": "3e8e6e1d",
   "optimized": {
     "@angular/common": {
       "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "1efc92e2",
+      "fileHash": "eb2be937",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "7350f175",
+      "fileHash": "1919202c",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "96559963",
+      "fileHash": "6079c6d4",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "a19d4549",
+      "fileHash": "0697ddd7",
       "needsInterop": false
     },
     "@ionic/angular": {
       "src": "../../../../../../node_modules/@ionic/angular/fesm2022/ionic-angular.mjs",
       "file": "@ionic_angular.js",
-      "fileHash": "639c48a8",
+      "fileHash": "68ab11e0",
       "needsInterop": false
     },
     "@ionic/angular/standalone": {
       "src": "../../../../../../node_modules/@ionic/angular/fesm2022/ionic-angular-standalone.mjs",
       "file": "@ionic_angular_standalone.js",
-      "fileHash": "ca1ac07e",
+      "fileHash": "9c1f3ac7",
       "needsInterop": false
     }
   },
